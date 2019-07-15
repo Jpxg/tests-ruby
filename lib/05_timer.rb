@@ -1,5 +1,5 @@
 
 
 def time_string(t)
-    Time.at(t).strftime("%H:%M:%S")
+    Time.at(t).utc.strftime("%H:%M:%S")
 end
